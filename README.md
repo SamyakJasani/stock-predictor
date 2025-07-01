@@ -18,29 +18,29 @@ The purpose of this project is to learn about linear regression in a practical a
 
 ## Project Structure
 
-stock_predictor/
+stock_predictor/  
+│  
+├── app/  
+│ ├── init.py  
+│ ├── main.py # Main tkinter GUI  
+│ ├── login.py # Login logic  
+│ ├── prediction.py # ML logic (Linear Regression)  
+│ └── assets/  
+│ ├── background.jpg  
+│ ├── google.png  
+│ ├── facebook.png  
+│ └── ...  
+│  
+├── data/  
+│ ├── users.csv  
+│ ├── GOOG.csv  
+│ ├── FB.csv  
+│ └── ...  
 │
-├── app/
-│ ├── init.py
-│ ├── main.py # Main tkinter GUI
-│ ├── login.py # Login logic
-│ ├── prediction.py # ML logic (Linear Regression)
-│ └── assets/
-│ ├── background.jpg
-│ ├── google.png
-│ ├── facebook.png
-│ └── ...
-│
-├── data/
-│ ├── users.csv
-│ ├── GOOG.csv
-│ ├── FB.csv
-│ └── ...
-│
-├── model/
-│ └── linearregression.pickle # Auto-generated during prediction and then discarded as well
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── run.py
+├── model/  
+│ └── linearregression.pickle # Auto-generated during prediction and then discarded as well  
+│  
+├── README.md  
+├── requirements.txt  
+├── .gitignore  
+└── run.py  
